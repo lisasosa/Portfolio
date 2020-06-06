@@ -1,11 +1,11 @@
 body {
-  background-color: #ffbcbc;
+  background-color: #5b8c85;
 }
 
 .profile-img {
   margin-top: 5%;
   float: left;
-  width: 70%;
+  width: 30%;
   border-radius: 100%;
   background-color: #4cd3c2;
 }
@@ -20,9 +20,17 @@ body {
   padding-bottom: 1%;
 }
 
+.navbar-brand {
+  padding-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 .about-me {
-  margin-left: 20%;
-  margin-top: 2.5%;
+  /* margin-left: 20%; */
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
   font-family: "Girassol", "Bitter", "serif";
 }
 
@@ -30,9 +38,9 @@ body {
   padding-top: 20%;
   margin-right: 40%;
   text-align: center;
-  font-family: "Shadows Into Light", cursive, sans-serif;
-  font-weight: bold;
-  font-size: larger;
+  /* font-family: "Shadows Into Light", cursive, sans-serif; */
+  /* font-weight: bold;
+  font-size: larger; */
 }
 
 .body-contact {
@@ -40,7 +48,21 @@ body {
   margin-right: 30px;
 }
 
-.navbar {
-  margin-left: 0;
-  margin-right: 0;
+#career {
+  font-family: "Teko", sans-serif;
+  height: 5px;
+}
+
+#description-heading {
+  font-family: "Bebas Neue", cursive;
+  padding-top: 3%;
+}
+
+#contac-title {
+  text-align: center;
+}
+
+#contact-div {
+  padding-top: 5%;
+  padding-left: 5%;
 }

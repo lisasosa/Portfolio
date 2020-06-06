@@ -5,10 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!--Google Fonts-->
-  <link
-    href="https://fonts.googleapis.com/css2?family=Anton&family=Bitter:wght@700&family=Cormorant+Garamond:ital@1&family=Girassol&family=Indie+Flower&family=Shadows+Into+Light&display=swap"
-    rel="stylesheet">
-  <!-- bootstrap -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko:wght@500&display=swap" rel="stylesheet">
+  <!-- bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -16,16 +14,32 @@
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="style.css">
+
+  <!-- bootstrap js -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
+  </script>
+
 </head>
 
 <body>
   <section id="title">
-    <div class="container-fluid">
-
-
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand" href="contact.html">Elizabeth Sosa</a>
-        <ul class="navbar-nav ml-auto">
+    <!-- <div class="container-fluid"> -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="contact.html">Elizabeth Sosa</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
           <li class="nav-item">
             <a class="nav-link" href="#about">About</a>
           </li>
@@ -33,38 +47,44 @@
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+            <a class="nav-link" href="contact.html">Contact</a>
           </li>
         </ul>
-    </div>
+      </div>
+      <!-- </div> -->
     </nav>
   </section>
-
-  <h1 class="about-me">About Me</h1>
-
   <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h1 class="about-me">About Me</h1>
+      </div>
+    </div>
+
+
 
     <div class="row">
-      <div class="col-lg-6">
+      <div class="col-lg-4">
         <img class="profile-img" src="images/profile-pic.jpg" alt="profile picture">
       </div>
-      <div class="col-lg-6" id="about" class="description">
+      <div class="col-lg-8" id="about" class="description">
 
-        <h3>BSET University of Houston Down Town 2009.</h3>
+        <p id="career">BSET University of Houston Down Town</p>
+        <p id="career">Current Student at UT-Austin Coding BootCamp</p>
+        <p id="career">Business Systems Analyst at Wex Inc</p>
 
-        <h3>Business Systems Analyst at Wex Inc.</h3>
+        <h4 id="description-heading">Quick learner</h4>
 
-        <h3>Current Student at UT-Austin Coding BootCamp.</h3>
-        <h3>Quick learner</h3>
-
-        <p>Enthusiastic and always looking out to learn new things. Not a very risk taker person by DNA but when it
+        <p>Enthusiastic and always looking out to learn new things. Not a very risk taker person by DNA but when
+          it
           comes
           to education and learning, I’m always willing to take risks and make investments.</p>
-        <h3>Excelent Collaborator and results oriented</h3>
+        <h4 id="description-heading">Excellent Collaborator and results oriented</h4>
         <p>Always willing to support and help other people when they need me as well as collaborate with them to
           improve things.
         </p>
-        <p>I have successfully collaborated with multiple teams including Operations, Engineering, Software Developers,
+        <p>I have successfully collaborated with multiple teams including Operations, Engineering, Software
+          Developers,
           Risk, and Product
           teams to either build a new project or improve an existing one.</p>
 
