@@ -29,8 +29,8 @@ body {
 .about-me {
   /* margin-left: 20%; */
   text-align: center;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 3%;
+  margin-bottom: 5%;
   font-family: "Girassol", "Bitter", "serif";
 }
 
@@ -65,4 +65,14 @@ body {
 #contact-div {
   padding-top: 5%;
   padding-left: 5%;
+}
+
+.portf-container {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.portf-row {
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
