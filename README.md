@@ -4,5 +4,14 @@ Repo Links
 https://github.com/lisasosa/Portfolio
 https://lisasosa.github.io/Portfolio/
 
-Portfolio contains current class project and homework assigments at UT-Austin Bootcamp.
+Personal Webpage has three nav bars at the top right: About, Portfolio, contact.
+
+About:
+Quick summary about myself along with links the bottom of the paoge to my linked in account, github page, and resume.
+
+Portfolio:
+It contains current class project and homework assigments at UT-Austin Bootcamp.
 There is still room for improvement on each of them and will be updated upon knowledge gain over course of the class and upon completion of the class.
+
+Contact:
+Contact information along with a contact form.
